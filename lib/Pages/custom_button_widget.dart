@@ -13,11 +13,11 @@ class MyCustomButton extends StatelessWidget {
     super.key,
     required this.text,
     this.fontSize = 18,
-    this.textColor = Colors.white,
+    this.textColor = Colors.blue,
     this.maxLines = 2,
     required this.leftIcon,
     required this.rightIcon,
-    this.iconColor = Colors.white,
+    this.iconColor = Colors.red,
 
   });
 
@@ -33,8 +33,8 @@ class MyCustomButton extends StatelessWidget {
        padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 25),
        margin: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Colors.green,
-          borderRadius: BorderRadius.circular(25),
+          borderRadius: BorderRadius.circular(20),
+          //color: buttonBackgroundColor,
         ),
 
         child: Row(
