@@ -1,3 +1,4 @@
+import 'package:assignment_02/Pages/grid_user_cell.dart';
 import 'package:flutter/material.dart';
 
 class ListCellWidget extends StatelessWidget {
@@ -26,7 +27,8 @@ class ListCellWidget extends StatelessWidget {
               fontSize: 18,
               fontWeight: FontWeight.bold,
             ),
-          ),)
+          ),),
+          Icon(Icons.map),
         ],
       ),
     );
