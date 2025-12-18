@@ -69,8 +69,8 @@ class HomePage extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.help),
-              title: const Text("Custom Card ", style: drawerTextStyle),
-              onTap: () => navigateToPage(context, CardsListPage()),
+              title: const Text("Layout Practice", style: drawerTextStyle),
+              onTap: () => navigateToPage(context, LayoutPractice()),
             ),
             ListTile(
               leading: Icon(Icons.link),
